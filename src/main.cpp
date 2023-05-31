@@ -29,7 +29,7 @@ const char *ssid = "Car";
 #define DIR4_PIN D7
 #define PWM4_PIN D8
 
-#define PWM_PRECISION 10000
+#define PWM_PRECISION 255
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
